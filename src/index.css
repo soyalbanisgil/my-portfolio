@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+img{
+  width: 80%;
 }
