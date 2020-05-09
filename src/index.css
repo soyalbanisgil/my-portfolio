@@ -8,6 +8,29 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.hidden{
+  display: none;
+}
+
+.animated {
+  display: inline;
+}
+
+.py-5 {
+  padding-top: 5rem !important;
+}
+
+.custom-btn{
+  background: #e74c3c;
+  color: white;
+  border-radius: 50px;
+  padding: 0.3rem 1.5rem
+}
+.custom-btn:hover{
+  background: #2c3e50;
+  color: #fff;
+}
+
 h1, h2, h3, h4 {
   font-weight: 700;
 }

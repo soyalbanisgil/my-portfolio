@@ -3,7 +3,7 @@ import './Navbar.styles.sass';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light py-3 bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light py-2 bg-light sticky-top">
   <div className="container">
   <a className="navbar-brand" href="/">Karen Gil</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,7 +14,7 @@ const Navbar = () => {
       <a className="nav-item nav-link" href="#about">About</a>
       <a className="nav-item nav-link" href="#skills">My Skills</a>
       <a className="nav-item nav-link" href="#portfolio">Portfolio</a>
-      <a className="nav-item nav-link" href="/">Contact</a>
+      <a className="nav-item nav-link" href="#contact">Contact</a>
     </div>
   </div>
   </div>
