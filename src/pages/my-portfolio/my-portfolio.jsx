@@ -10,7 +10,7 @@ const myPortfolio = () => {
             <p className="lead"><em>Stack: React.js, Bootstrap 4, Sass, AOS, React-Router</em></p>
             <div className="buttons my-5 d-flex justify-content-around">
                 <a href="https://github.com/soyalbanisgil/my-portfolio" target="_blank" rel='noopener noreferrer' className="btn custom-btn">Repository</a>
-                <a href="/" className="btn custom-btn">Live Site</a>
+                <a href="https://karengil-portfolio.now.sh/" target="_blank" rel='noopener noreferrer' className="btn custom-btn">Live Site</a>
             </div>
             <img src={portfolio} alt="web screnshoot"/>
         </div>
