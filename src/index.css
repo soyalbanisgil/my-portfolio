@@ -38,3 +38,12 @@ h1, h2, h3, h4 {
 img{
   width: 80%;
 }
+
+a {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #a5392d;
+}

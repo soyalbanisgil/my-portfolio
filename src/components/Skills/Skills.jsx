@@ -11,7 +11,7 @@ const Skills = () => {
           BOOTSTRAP - JQUERY - PHP - MYSQL - NODE.JS - EXPRESS - NPM - YARN - 
           GIT - GITHUB
         </p>
-        <a href="https://drive.google.com/open?id=1ux3x8EyUhwh0F4K3K0D2yzM4-vRDvWOf" className="btn custom-btn">My Resume</a>
+        <a href="https://drive.google.com/open?id=1ux3x8EyUhwh0F4K3K0D2yzM4-vRDvWOf" target="_blank" rel='noopener noreferrer' className="btn custom-btn">My Resume</a>
       </div>
     </section>
   );
