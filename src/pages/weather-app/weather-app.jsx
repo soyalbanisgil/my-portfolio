@@ -9,8 +9,9 @@ const myweatherApp = () => {
             <p>This app is pretty simple. After learning how to use API's with JavaScript I practiced a lot, including this project.</p>
             <p>The user just have to type the name of the city and it shows the current weather.</p>
             <p className="lead"><em>Stack: HTML5, CSS3, JavaScript, OpenWeatherMap API.</em></p>
-            <div>
-            <a href="https://github.com/soyalbanisgil/weather-app-js" target="_blank" rel='noopener noreferrer' className="btn custom-btn my-5">Repository</a>
+            <div className="buttons my-5 d-flex justify-content-around">
+                <a href="https://github.com/soyalbanisgil/weather-app-js" target="_blank" rel='noopener noreferrer' className="btn custom-btn">Repository</a>
+                <a href="https://soyalbanisgil.github.io/weather-app-js/" target="_blank" rel='noopener noreferrer' className="btn custom-btn">Live Site</a>
             </div>
             <img src={weatherApp} alt="web screnshoot"/>
         </div>
