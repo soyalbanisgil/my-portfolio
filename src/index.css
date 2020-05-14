@@ -47,3 +47,15 @@ a {
 a:hover {
   color: #a5392d;
 }
+
+@media screen and (max-width: 420px){
+  h2{
+    font-size: 1.6rem;
+  }
+  h4{
+    font-size: 1.3rem;
+  }
+  .display-3{
+    font-size: 3rem !important;
+  }
+}
